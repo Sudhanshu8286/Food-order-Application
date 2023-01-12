@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{# {% extends 'filename'%}-is a built-in tag of the jinja2 which used to inherit the code the 
+Another html page #}
+
+{% block title %}
+    About Us
+{% endblock title %}
+{#
+        {% block blockname %} {% blockend %} is built-in tag of the jinja2 which used to write the 
+    dynamic content of inherited page.
+    (it must be empty declare int the base page.)
+#}
+
+
+
+{% block body %}
+<h1>Weclome to About us Page</h1>
+ {% endblock body %}        
